@@ -1,0 +1,24 @@
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-family:sans-serif;
+}
+
+.button1{
+    border: none;
+    text-decoration: none;
+    background-color: rgb(152, 176, 207);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px rgb(80, 76, 76);
+}
+.button1:hover{
+    background-color: rgb(65, 82, 105);
+    color: white;
+}
+.todo{
+    font-size: 25px;
+    font-weight: bold;
+}
